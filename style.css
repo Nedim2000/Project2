@@ -1,0 +1,179 @@
+body {
+  margin: auto;
+  background-color: darkgray;
+}
+div {
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+}
+div.top {
+  alt = "background";
+  background-image: url("bgd1.jpg");
+  position: relative;
+}
+div.desc {
+  position: relative;
+  margin-left: 12%;
+  margin-top: -16%;
+  margin-bottom: 6%;
+  text-size-adjust: auto;
+  border-top: 0;
+  border-bottom: 0;
+}
+div.top img {
+  padding-top: 0;
+  padding-bottom: 14px;
+}
+h1.name {
+  color: white;
+  font-size: 5vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h3.title {
+  color: white;
+  font-size: 2vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 55%;
+  left: 0.4%;
+}
+div.navb {
+  background-color: darkgrey;
+}
+div.navb a {
+  color:darkblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.8vw;
+  text-decoration: none;
+}
+div.navb h4 {
+  text-align: center;
+}
+a.nav:hover {
+  color: yellow;
+}
+a.nav:visited {
+  color:red;
+}
+div.abm {
+  background-color: darkgray;
+}
+h2 {
+  color: rgb(90, 90, 90);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: lightgray;
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 0;
+}
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4vw;
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ol {
+  font-weight: bold;
+  margin-left: 20px;
+}
+li {
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-style: italic;
+  font-size: 1.2vw;
+}
+div.edu {
+  background-color: darkgray;
+}
+div.edu ol {
+  list-style: none;
+  padding-left: 20px;
+}
+div.edu li {
+  font-weight: normal;
+}
+div.skl {
+  background-color: darkgray;
+}
+div.skl h4 {
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+div.skl li {
+  margin-left: 20px;
+}
+ul {
+  list-style-type: square;
+}
+table {
+  width: 40%;
+  border: 2px solid gray;
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: white;
+}
+th,
+td {
+  padding: 10px 10px 10px 10px;
+  border: 5px solid rgb(63, 63, 63);
+  color: black;
+  font-size: 1vw;
+}
+th {
+  border: 5px solid black;
+  font-weight: bold;
+  font-size: 1.3vw;
+  background-color:lightgrey;
+}
+td:hover {
+  background-color:lightgrey;
+}
+div.wor {
+  background-color: darkgray;
+}
+div.wor ul {
+  list-style-type: square;
+  font-weight: normal;
+}
+div.hob {
+  background-color: darkgray;
+}
+div.hob ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+div.con {
+  background-color: darkgray;
+}
+div.con a {
+  color:#0000EE;
+}
+div.con p {
+  font-size: 1.5vw;
+}
+div.pics {
+  background-color: darkgray;
+  text-align: center;
+}
+img.cent {
+  display: inline-block;
+  padding-bottom: 15px;
+  padding-right: 1.5vw;
+  padding-left: 1.5vw;
+  width: 10%;
+  height: auto;
+}
+div.qinf {
+  background-color: darkgray;
+  text-align: right;
+}
+div.qinf p {
+  font-size: 0.8vw;
+  font-weight: bold;
+}
